@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-image: url(f.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.headers {
+  background-color: rgb(158, 208, 241);
+}
+
+.header1 {
+  background-image: url(l.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.text {
+  max-width: 400px;
+  margin-inline: auto;
+  padding-block: 50px;
+}
+
+.text2 {
+  max-width: 500px;
+  margin-inline: auto;
+  padding: 10px;
+}
+
+.group img {
+  min-height: 40px;
+  max-width: 40px;
+}
+
+.fluid-5 {
+  background-image: url(Shape.png);
+  background-position: center;
+}
+
+.text-font {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+#navbar-row {
+  transition: all 0.5s ease-in-out;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  padding-inline: 2rem;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 999;
+}
+
+.top-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+.top-btn img {
+  max-width: 30px;
+}/*# sourceMappingURL=style.css.map */
